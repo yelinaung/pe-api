@@ -15,7 +15,7 @@ node app.js
 ```
 The app should be running on [localhost:8080](http://localhost:8080).
 
-It's currently running at pe-api.herokuapp.com
+It's currently running at [pe-api.herokuapp.com](http://pe-api.herokuapp.com)
 
 ```json
 {
