@@ -1,0 +1,10 @@
+{
+  "name": "pe-api",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~4.0.0",
+    "cheerio": "~0.17.0",
+    "node-read": "~0.1.4"
+  }
+}
+
