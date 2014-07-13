@@ -1,4 +1,9 @@
+
 {
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yelinaung/pe-api.git"
+  },
   "name": "pe-api",
   "main": "app.js",
   "dependencies": {
