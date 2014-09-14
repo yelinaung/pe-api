@@ -1,5 +1,7 @@
 programmingexcuses.com api
 ===========================
+[![Dependency Status](https://gemnasium.com/yelinaung/pe-api.svg)](https://gemnasium.com/yelinaung/pe-api)
+
 
 A simple api for programmingexcuses.com
 
