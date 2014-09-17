@@ -7,8 +7,8 @@
   "main": "app.js",
   "dependencies": {
     "express": "~4.0.0",
+    "body-parser": "~1.8.2",
     "cheerio": "~0.17.0",
     "node-read": "~0.1.4"
   }
 }
-
