@@ -6,6 +6,13 @@ $               = require('cheerio');
 port            = process.env.PORT || 8080;     // set our port
 var router      = express.Router();             // get an instance of the express Router
 var bodyParser  = require('body-parser');
+var redis = require("redis");
+
+client = redis.createClient();
+
+client.on("error", function (err) {
+  console.log("Error " + err);
+});
 
 app.use(bodyParser.urlencoded({
   extended: true
@@ -20,6 +27,7 @@ router.get('/', function(req, res) {
 router.post('/gcm', function(req, res) {
   console.log("uuid -> " + req.body.uuid);
   console.log("device id -> " + req.body.device_id);
+
   res.end("res_sent");
 });
 
