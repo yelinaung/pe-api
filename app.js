@@ -25,9 +25,7 @@ router.get('/', function(req, res) {
 });
 
 router.post('/gcm', function(req, res) {
-  console.log("uuid -> " + req.body.uuid);
-  console.log("device id -> " + req.body.device_id);
-
+  client.set(req.body.uuid, req.body.device_id);
   res.end("res_sent");
 });
 
