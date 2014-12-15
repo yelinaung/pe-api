@@ -21,7 +21,7 @@ It's currently running at [pe-api.herokuapp.com](http://pe-api.herokuapp.com)
 
 ```json
 {
-    message: "I had to do the project backwards as people demanded results out of order"
+    "message": "I had to do the project backwards as people demanded results out of order"
 }
 ```
 
