@@ -32,3 +32,4 @@ router.post('/gcm', function(req, res) {
 app.use('/', router);
 app.listen(port);
 console.log('Magic happens on port ' + port);
+
