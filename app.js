@@ -8,11 +8,11 @@ var router      = express.Router();             // get an instance of the expres
 var bodyParser  = require('body-parser');
 var redis = require("redis");
 
-client = redis.createClient();
+// client = redis.createClient();
 
-client.on("error", function (err) {
-  console.log("Error " + err);
-});
+// client.on("error", function (err) {
+//   console.log("Error " + err);
+// });
 
 app.use(bodyParser.urlencoded({
   extended: true
